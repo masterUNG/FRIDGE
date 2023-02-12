@@ -48,18 +48,18 @@ class _WidgetHistoryState extends State<WidgetHistory> {
         Row(
           children: [
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 8),
+              padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 4),
               width: boxConstraints.maxWidth * 0.5,
-              height: boxConstraints.maxHeight * 0.4,
+              height: boxConstraints.maxWidth * 0.5,
               child: Image.network(
                 appController.productModels[index].urlImage,
                 fit: BoxFit.cover,
               ),
             ),
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 8),
+              padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 4),
               width: boxConstraints.maxWidth * 0.5,
-              height: boxConstraints.maxHeight * 0.4,
+              height: boxConstraints.maxWidth * 0.5,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
